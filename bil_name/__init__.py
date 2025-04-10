@@ -2,7 +2,7 @@ import os
 import struct
 import argparse
 
-def get_device_name(device_id):
+def gen_device_name(device_id):
         path = os.path.dirname(os.path.abspath(__file__))
         with open(path + "/adjs.txt", 'r') as file:
             adjs = file.read().splitlines()
