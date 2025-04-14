@@ -8,4 +8,6 @@ setup(name='bil_name',
       author_email='neal@blueirislabs.com',
       license='Other/Proprietary License',
       packages=['bil_name'],
+      package_data={'': ['adjs.txt', 'nouns.txt']},
+      include_package_data=True,
       zip_safe=False)
