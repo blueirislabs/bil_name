@@ -1777,7 +1777,6 @@ minute
 mirabilis
 mirror
 mist
-mistake
 mitten
 mixer
 mixture
